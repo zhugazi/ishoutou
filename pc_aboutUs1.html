@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>公司简介</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script src="File/js/jqplot.js"></script>
+<script src="File/js/jQuery-jcMarquee.js"></script>
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" class="current" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="companyTop">
+    <ul class="companyTitBox friend2Box companyTit2Box_wrap">
+        <li id="conTab1" class="current" onclick="TabMove('con',1,8)"><a href="pc_aboutUs1.html">公司简介</a></li>
+        <li id="conTab2" onclick="TabMove('con',2,8)"><a href="pc_aboutUs2.html">c2p保障</a></li>
+        <li id="conTab3" onclick="TabMove('con',3,8)"><a href="pc_aboutUs3.html">活力团队</a></li>
+        <li id="conTab4" onclick="TabMove('con',4,8)"><a href="pc_aboutUs4.html">公益事业</a></li>
+        <li id="conTab5" onclick="TabMove('con',5,8)"><a href="pc_aboutUs5.html">媒体报道</a></li>
+        <li id="conTab6" onclick="TabMove('con',6,8)"><a href="pc_aboutUs6.html">合作伙伴</a></li>
+        <li id="conTab7" onclick="TabMove('con',7,8)"><a href="pc_aboutUs7.html">加入我们</a></li>
+        <li id="conTab8" onclick="TabMove('con',8,8)"><a href="pc_aboutUs8.html">联系我们</a></li>
+    </ul>
+</div>
+
+<div class="indexBox3">
+        <div class="eventMain winWith">
+            <!--公司简介 B-->
+            <div class="baseInfoMain">
+                <div class="baseInfo2Box">
+                    <h2>公司介绍</h2>
+                    <div class="aboutUsCon">
+                        <p>手投网（www.ishoutou.com）成立于2013年，<br/>
+                            由北京手投网投资控股有限公司负责运营，专注于文化金融（邮币卡）领域，是一家创新型互联网文化金融平台。<br/>
+                            手投网前身为文交所IT系统服务商，拥有该领域多项著作权及专利；<br/>2015年，手投网进行战略重组，完成了“文化产权融资交易系统”（简称CAFE系统）的研发工作，业务拓展及互联网金融、文化金融、金融IT三大领域；<br/>
+                            同时，手投网推出的互联网文化金融C2P平台也成功上线，引领中国互联网金融迈入3.0时代。<br/>
+                            作为一家致力于创新金融产品研发的互联网金融平台，手投网汇聚了互联网行业、金融领域顶尖的产品研发团队和管理人才；<br/>
+                            设立经营管理委员会，由业界资深专家、教授担任委员，加强防控市场风险，推动资本多渠道引入和合规流动。<br/>
+                            公司坚持以“助力邮币交易，振兴文化金融”为己任，全心投身于繁荣文化事业之中。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aboutUsMain Bg7">
+                <div class="aboutUsBox homeBg">
+                    <h2>股东背景</h2>
+                    <div class="aboutUsCon">
+                        <p>中企合(北京)投资管理中心，是由中国国际贸易学会投规委及中国企业合作促进会联合发起成立，<br/>
+                            曾投资于北京石景山区重点扶持金融企业大秦金控集团及其下属公司。</p>
+                    </div>
+                </div>
+            </div>
+            <!--时间轴 B-->
+            <div class="baseInfoMain">
+                <div class="baseInfo2Box" style="padding:20px 0 0;">
+                    <h2 style="margin-bottom:0;">成长故事</h2>
+                    <!--效果html开始-->
+                    <!--注：时间轴上事件内容最多为40个汉字。-->
+                    <div class="slide" style="height: 353px">
+                        <div class="images">
+                            <div class="on">
+                                <ul class="staggererCon">
+                                    <li class="top">
+                                        <em>2013年5月</em>
+                                        <p><i></i>手投网公司获批成立。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2013年8月</em>
+                                        <p><i></i>手投网启动文交IT服务发展计划，并开始实施文化产权融资交易系统（简称CAFE系统）的研发工作。</p>
+                                    </li>
+                                    <li class="top">
+                                        <em>2015年5月</em>
+                                        <p><i></i>手投网完成企业重组，确立移动互联网金融、文化金融及金融IT多元化发展战略。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2015年7月</em>
+                                        <p><i></i>手投网获批成为首都金融服务商会互联网金融专业委员会委员单位，中关村互联网金融行业协会理事单位。</p>
+                                    </li>
+                                    <li class="top over">
+                                        <em>2015年7月</em>
+                                        <p style="display:block;"><i></i>手投网全新C2P文化金融平台上线，开创了中国文化产权融资交易的新时代。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2015年8月</em>
+                                        <p><i></i>上线一个月成交额破千万。</p>
+                                    </li>
+                                    <li class="top">
+                                        <em>2015年8月</em>
+                                        <p><i></i>手投网WAP上线，微信理财功能正式开通。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2015年8月</em>
+                                        <p><i></i>手投网成功挂牌北京股权交易中心——“新四板”。</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="display: none;">
+                                <ul class="staggererCon">
+                                    <li class="top">
+                                        <em>2015年8月</em>
+                                        <p><i></i>手投网六项专利顺利获批，涵盖文化金融资产交易C2P交易平台系统等六项专利。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2015年9月</em>
+                                        <p><i></i>手投网荣获新华网颁发的互联网金融企业社会责任创新奖。</p>
+                                    </li>
+                                    <li class="top">
+                                        <em>2015年10月</em>
+                                        <p><i></i>手投网上线98天，成交额破5000万。</p>
+                                    </li>
+                                    <li class="down">
+                                        <em>2015年12月</em>
+                                        <p><i></i> 上线三个月余成交额成功突破一亿。</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="display: none;">
+                                
+                            </div>
+                            <div style="display: none;">
+                                
+                            </div>
+                        </div>
+                        <a class="backward png">prev</a><a class="forward png">next</a>
+                        <div class="tabs"> <a href="#"></a><a href="#"></a></div>
+                    </div>
+                    <script>
+                    	$(function(){
+                    		var i=0,
+                    			obj=$(".slide .images>div"),
+                    			objLength=obj.length-1,
+                    			str="",
+                    			a=0;
+                    		for(var j=0,k=obj.length;j<k;j++){
+                    			str=obj[j].innerHTML;
+                    			if(str.replace(/\s+/g,"")==""){
+                    				a=j;
+                    				break;
+                    			}
+                    		}
+                    		$(".backward").live("click",function(){
+                    			i--;
+                    			if(i<=0){
+                    				i=0;
+                    			}
+                    			obj.eq(i).fadeIn().siblings().fadeOut();
+                    		})
+                    		$(".forward").live("click",function(){
+                    			i++;
+                    			if(i>=a){
+                    				i=(a-1);
+                    			}
+                    			obj.eq(i).fadeIn().siblings().fadeOut();
+                    		})
+                    	})
+                    </script>
+                    <!--效果html结束-->
+                </div>
+            </div>
+            <!--时间轴 E-->
+			
+			<!--轮播E-->
+            <div class="aboutUsMain Bg7">
+                <div class="aboutUsBox" style="padding-bottom: 50px;">
+                    <h2>成就荣誉</h2>
+					<div class="aboutUs_focusBox">
+						<div class="aboutUs_focusBox_text">
+							<div class="aboutUs_focusBox_textbox">
+								<ul>
+									<li>（简称CAFE系统）及云巢文化产权交易安全系统等六项国家著作权专利</li>
+									<li>新华网主办的第二届互联网金融企业社会责任峰会手投网荣获互联网金融企业创新奖</li>
+									<li>经济日报主办的首届中国互联网金融创新发展峰会手投网荣获2015中国诚信经营AAA级示范企业和中国互联网金融最佳创新奖</li>
+									<li>上海西垚主办的2015中国互金+支付产业发展大会手投网荣获年度最佳移动金融创新奖</li>
+									<li>中国人民对外友好协会主办的2015联合国千年公益盛典手投网荣获千年卓越贡献奖</li>
+								</ul>
+								
+							</div>	
+						</div>
+						<div class="aboutUs_focusBox_tu">
+							<div class="aboutUs_focusBox_tubox" id="aboutUs_focusBox_tubox">
+								<ul>
+									<li><img src="File/images/aboutUs/Us_tu1.jpg"/></li>
+									<li><img src="File/images/aboutUs/Us_tu2.jpg"/></li>
+									<li><img src="File/images/aboutUs/Us_tu3.jpg"/></li>
+									<li><img src="File/images/aboutUs/Us_tu4.jpg"/></li>
+									<li><img src="File/images/aboutUs/Us_tu5.jpg"/></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<script>
+						//-----公司介绍-》成就荣誉轮播效果begin
+							var i=0,
+								j=0,
+								timer=null,
+								timer2=null,
+								textUl=$(".aboutUs_focusBox_textbox>ul"),
+								textUlli=$(".aboutUs_focusBox_textbox>ul>li"),
+								tuUl=$(".aboutUs_focusBox_tubox>ul"),
+								tuUlli=$(".aboutUs_focusBox_tubox>ul>li"),
+								newli=textUlli.clone(),
+								newli2=tuUlli.clone();
+								textUl.append(newli);
+								tuUl.append(newli2);
+							
+							objEvent(textUlli);
+							objEvent(tuUlli);
+							function objEvent(obj){
+								obj.live("mouseover",function(){
+									var index=$(this).index();
+									cleardiao();
+									if(obj==textUlli){
+										$(this).addClass("onColor").siblings().removeClass("onColor");
+										$(".aboutUs_focusBox_tubox>ul>li").eq(index).addClass("onColor").siblings().removeClass("onColor");
+									}else if(obj==tuUlli){
+										$(this).addClass("onColor").siblings().removeClass("onColor");
+										$(".aboutUs_focusBox_textbox>ul>li").eq(index).addClass("onColor").siblings().removeClass("onColor");
+									}
+								}).live("mouseout",function(){
+									setdiao();
+								})
+							}
+							
+							function autoplay(objW,fuobj,direction){
+								var liWidth=-(objW.width()),
+									liheight=-(objW.height());
+								var boxLeft=fuobj.position().left,
+									boxTop=fuobj.position().top,
+									box=fuobj,
+									boxZi=box.children().eq(0);
+								if(direction=="left"){
+									if(boxLeft<liWidth){
+										box.append(boxZi);
+										i=0;
+									}
+									box.css("left",--i);
+									objW.eq(1).addClass("onColor").siblings().removeClass("onColor");
+								}else if(direction=="top"){
+									if(boxTop<liheight){
+										box.append(boxZi);
+										j=0;
+									}
+									fuobj.css("top",--j);
+									objW.eq(1).addClass("onColor").siblings().removeClass("onColor");
+								}
+							}
+							setdiao();
+							function setdiao(){
+								timer=setInterval(function(){
+									autoplay($(".aboutUs_focusBox_textbox>ul>li"),textUl,"top")
+								},120);
+								timer2=setInterval(function(){
+									autoplay($(".aboutUs_focusBox_tubox>ul>li"),tuUl,"left")
+								},15);
+							}
+							function cleardiao(){
+								clearInterval(timer);
+								clearInterval(timer2);
+							}
+							
+					</script>
+                </div>
+            </div>
+            <!--轮播B-->
+            <div class="baseInfoMain">
+                <div class="baseInfo2Box">
+                    <div class="cultureBox">
+                        <div class="cultureCon">
+                            <h2>文化烙印</h2>
+                            <p>核心价值观：安全，持续</p>
+                            <p>企业精神：创新，领跑</p>
+                            <p>定义手投：中国文化金融C2P第一平台<br/>
+                                爱手投·财自由<br/>
+                                手机理财，就上手投网<br/>
+                                微力无边，信手理财</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aboutUsMain Bg7">
+                <div class="aboutUsBox">
+                    <h2>手投优势</h2>
+                    <div class="guide_box6">
+                        <ul>
+                            <li>
+                                <img src="File/images/aboutUs/us_03.jpg" />
+                                <p>
+                                    <em>移动金融·便捷之选</em>
+                                    <span>手投网推出微信理财功能，您只需扫描二维码，即可在手投网微信订阅号里实现电脑端的全部功能，让您随时随地享受“爱手投，财自由“的乐趣。</span>
+                                </p>
+                            </li>
+                            <li>
+                                <img src="File/images/aboutUs/us_04.jpg" />
+                                <p>
+                                    <em>技术金融·安全之选</em>
+                                    <span>手投网拥有自主研发的CAFE系统等六项文化产权交易及安全领域的国家著作权专利，为文化产权融资交易业务新模式打下坚实的技术基础。始终坚持以安全的平台、安全的产品为根本定位，专注于趋零风险的互联网创新金融产品，为用户提供放心的投资理财模式</span>
+                                </p>
+                            </li>
+                            <li class="last">
+                                <img src="File/images/aboutUs/us_05.jpg" />
+                                <p>
+                                    <em>文化金融·潜力之选</em>
+                                    <span>手投网以“助力邮币交易，振兴文化金融”为己任，顺应文化金融大发展的潮流，用互联网+文化+金融的全新理念，推出了C2P平台，把金融产品和文化藏品的“收益性、趣味性及收藏性”完美地融合在一起。</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baseInfoMain">
+                <div class="baseInfo2Box">
+                    <h2>社会责任</h2>
+                    <div class="aboutUsCon">
+                        <h3>助力邮币交易，振兴文化金融</h3>
+                        <p>中华民族五千年的悠久历史蕴藏了巨大的宝藏，文化的传播与发展永远都是时代必须延续的使命。</p>
+                        <p>邮币卡是中华文化的财富，邮币卡市场由实物交易发展到电子化交易，意味着邮币卡收藏品从小众走向大众，让更多的人加入到文化金融市场中来。</p>
+                        <p>手投网以“助力邮币交易，振兴文化金融”为己任，为中华文化的发展与传承贡献力量。</p>
+                    </div>
+                </div>
+            </div>
+            <!--公司简介 E-->
+        </div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+</body>
+</html>

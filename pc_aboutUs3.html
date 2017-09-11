@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>活力团队</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" media="all" href="File/css/evenFlow.css">
+<link rel="stylesheet" href="http://www.ishoutou.com/Style/css/fancybox.css" type="text/css" media="all"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ishoutou.com/Style/css/jquery.fancybox-1.3.1.pack.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("a[rel=group]").fancybox({
+            'titlePosition' : 'over',
+            'cyclic'        : true,
+            'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+            }
+        });
+    });
+</script>
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" class="current" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="companyTop">
+    <ul class="companyTitBox friend2Box companyTit2Box_wrap">
+        <li id="conTab1" onclick="TabMove('con',1,8)"><a href="pc_aboutUs1.html">公司简介</a></li>
+        <li id="conTab2" onclick="TabMove('con',2,8)"><a href="pc_aboutUs2.html">c2p保障</a></li>
+        <li id="conTab3" class="current" onclick="TabMove('con',3,8)"><a href="pc_aboutUs3.html">活力团队</a></li>
+        <li id="conTab4" onclick="TabMove('con',4,8)"><a href="pc_aboutUs4.html">公益事业</a></li>
+        <li id="conTab5" onclick="TabMove('con',5,8)"><a href="pc_aboutUs5.html">媒体报道</a></li>
+        <li id="conTab6" onclick="TabMove('con',6,8)"><a href="pc_aboutUs6.html">合作伙伴</a></li>
+        <li id="conTab7" onclick="TabMove('con',7,8)"><a href="pc_aboutUs7.html">加入我们</a></li>
+        <li id="conTab8" onclick="TabMove('con',8,8)"><a href="pc_aboutUs8.html">联系我们</a></li>
+    </ul>
+</div>
+
+<div class="indexBox3">
+        <div class="eventMain winWith">
+            <!--活力团队 B-->
+            <div class="baseInfoMain">
+                <div class="baseInfo3Box">
+                    <div style="height:20px;overflow:hidden;"></div>
+                    <div class="ceoPic"><img src="File/images/aboutUs/us_12_1.jpg" width="250" height="320" alt="杨清华"></div>
+                    <div class="ceoCon" style="padding-top: 3px;height: 317px;">
+                        <span>杨清华</span>
+                        <em>手投网CEO</em>
+                        <p>杨清华先生在金融领域工作多年，曾任大型资产管理公司总裁，从事资产管理、投资基金、普惠金融等业务，现任手投网CEO及联合国全球发展计划中国委员会主席团委员。</p>
+                        <p>自上任以来，杨清华大力推进企业改组及战略转型，在原文交所IT系统服务基础上，建立起手投网互联网金融、文化金融及金融IT三大业务板块，并带领手投网完成CAFE文化产权融资交易系统的研发工作；同时，推出手投网全新C2P平台，并成功上线，成为中国第一家专注于互联网文化金融服务的C2P公司，开启了中国文化产权融资交易新时代。</p>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+            </div>
+            <div class="baseInfoMain Bg8">
+                <div class="baseInfo3Box teamBg">
+                    <h2>管理团队</h2>
+                    <div class="aboutUsCon">
+                        <p>手投网管理团队来自于Google、Alibaba、Citibank、PWC等国内外顶尖的互联网公司和金融机构，拥有超高的职业素质和专业能力，分管手投网<br/>技术研发中心、产品运营中心、品牌宣传中心、商务合作中心、人力资源中心、风险控制中心、财务管理中心和市场营销中心八大核心部门。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="baseInfoMain Bg1">
+                <div class="baseInfo3Box">
+                    <h2>专家顾问</h2>
+                    <div class="expertList">
+                        <ul>
+                            <li>
+                                <div class="expertPic"><img src="File/images/aboutUs/us_12_3.jpg" width="180" height="220" alt="魏振武"></div>
+                                <div class="expertCon">
+                                    <span>魏振武</span>
+                                    <em>文化交流顾问</em>
+                                    <p>历任中国艺术家交流中心执行主席／文化部中国书画艺术委员会委员／中国美术协会副主席</p>
+                                    <p><strong>顾问职责：</strong>进行艺术、文化行业内沟通与交流，审议文化金融发展决策。</p>
+                                </div>
+                                <div class="clr"></div>
+                            </li>
+                            <li>
+                                <div class="expertPic"><img src="File/images/aboutUs/us_12_4.jpg" width="180" height="220" alt="赵秦荣"></div>
+                                <div class="expertCon">
+                                    <span>赵秦荣</span>
+                                    <em>经营管理专家顾问</em>
+                                    <p>中国企业合作促进会会长、中国国际贸易学会副秘书长、中国投资规划研究工作委员会执行主任。</p>
+                                    <p><strong>顾问职责：</strong>制定公司发展战略，审议公司重大经营决策。</p>
+                                </div>
+                                <div class="clr"></div>
+                            </li>
+                            <li>
+                                <div class="expertPic"><img src="File/images/aboutUs/us_12_5.jpg" width="180" height="220" alt="郭晓强"></div>
+                                <div class="expertCon">
+                                    <span>郭晓强</span>
+                                    <em>合规及风控顾问</em>
+                                    <p>中国注册会计师，中国执业律师，北京首律会计师事务所合伙人、主任会计师。</p>
+                                    <p><strong>顾问职责：</strong>领导公司的业务合规管理及财务计划管理工作。</p>
+                                </div>
+                                <div class="clr"></div>
+                            </li>
+                            <li>
+                                <div class="expertPic"></div>
+                                <div class="expertCon">
+                                    <span>魏振武</span>
+                                    <em>文化交流顾问</em>
+                                    <p>历任中国艺术家交流中心执行主席／文化部中国书画艺术委员会委员／中国美术协会副主席</p>
+                                    <p><strong>顾问职责：</strong>进行艺术、文化行业内沟通与交流，审议文化金融发展决策。</p>
+                                </div>
+                                <div class="clr"></div>
+                            </li>
+                            <li class="last">
+                                <div class="expertPic"></div>
+                                <div class="expertCon">
+                                    <span>魏振武</span>
+                                    <em>文化交流顾问</em>
+                                    <p>历任中国艺术家交流中心执行主席／文化部中国书画艺术委员会委员／中国美术协会副主席</p>
+                                    <p><strong>顾问职责：</strong>进行艺术、文化行业内沟通与交流，审议文化金融发展决策。</p>
+                                </div>
+                                <div class="clr"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="baseInfoMain Bg7">
+                <div class="baseInfo3Box">
+                    <h2>共筑手投网</h2>
+                    <div class="aboutUsCon">
+                        <p>我们生就不平凡，手投网让我们各尽其才，展现各自的才华，让我们变得更加与众不同。<br/>
+                            每一个特立独行的小个体，融入到手投网这个大家庭中，凝集汇聚，发挥团结的力量，只为一个目标——共筑手投网的璀璨！</p>
+                    </div>
+                    <div class="photoWallBox evenflow">
+                        <a title="" href="File/images/aboutUs/test1.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test1.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test2.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test2.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test1.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test1.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test2.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test2.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test2.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test2.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test1.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test1.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test2.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test2.jpg" alt=""></a>
+                        <a title="" href="File/images/aboutUs/test1.jpg" rel="group"  class="evenflow_scale"><i></i><img src="File/images/aboutUs/test1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!--活力团队 E-->
+        </div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+</body>
+</html>
